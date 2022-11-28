@@ -1,0 +1,26 @@
+.card{
+    background-color: red;
+    color: white;
+    position: relative;
+    margin-top: 3rem;
+    padding: 1.5px;
+    overflow: hidden;
+}
+p{
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+}
+.card img{
+    width: 100%;
+    height: 75%;
+    transition: all 1.1s ease;
+}
+ .title{
+text-align: center;
+padding: 1rem;
+font-size: 16px;
+}
+.card:hover img{
+    transform: scale(1.3);
+}

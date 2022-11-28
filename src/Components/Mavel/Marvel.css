@@ -1,0 +1,28 @@
+.box-content{
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)),url(https://parade.com/.image/t_share/MTkwNTgxMjkxNjk3NDQ4ODI4/marveldisney.jpg);
+    background-position: 100%;;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 1.3rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.right-box{
+    flex-basis: 20%;
+}
+.left-box{
+    flex-basis: 50%;
+}
+.box-content img{
+    width: 300px;
+    height: 400px;
+    border: 1px solid white;
+    box-shadow: 0 5px 5px rgba(255, 255, 255, 0.2);
+    transform: rotate(20deg);
+    transition: 0.5s;
+}
